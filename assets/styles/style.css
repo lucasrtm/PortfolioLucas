@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Silkscreen&display=swap");
+@font-face {
+  font-family: "Caviar Dreams";
+  src: url("CAVIARDREAMS_ITALIC.ttf") format("truetype");
+}
 * {
   padding: 0;
   margin: 0;
@@ -18,7 +22,7 @@ p {
 
 .backgroundAnimation {
   width: 300vw;
-  height: 100vw;
+  height: 100vh;
   background-image: url("../img/banner.jpg");
   background-size: 100vw;
   position: absolute;
@@ -31,10 +35,11 @@ p {
 .backgroundAnimation-two {
   display: none;
   width: 100vw;
-  height: 100vw;
+  height: 100vh;
   background-image: url("../img/final.gif");
-  background-size: 100vw;
-  transform: scaleY(1.2);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: black;
   z-index: 1;
 }
 
